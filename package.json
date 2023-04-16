@@ -1,0 +1,27 @@
+{
+  "name": "pinia-nuxt-brdige-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
+    "core-js": "^3.25.3",
+    "nuxt-edge": "latest",
+    "pinia": "^2.0.34",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuetify": "^2.6.10"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27998567.a12a710",
+    "@nuxt/types": "^2.16.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "^3.4.1"
+  }
+}
